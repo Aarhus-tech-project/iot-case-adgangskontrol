@@ -1,0 +1,11 @@
+#define MQTT_SERVER_ADDRESS 
+#define SERVER_ADDRESS 
+#define SUBSCRIBER_ID 
+#define PUBLISHER_ID 
+#define CARD_TOPIC 
+#define KEY_TOPIC 
+#define ACCESS_GRANTED_TOPIC 
+#define ACCESS_DENIED_TOPIC 
+#define DATABASE_USER 
+#define DATABASE_PWD 
+#define DATABASE 

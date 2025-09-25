@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"/><title>Gatekeeper</title></head>
+  <body style="font-family: system-ui, sans-serif; margin: 2rem;">
+    <h1>Gatekeeper Admin</h1>
+    <p>Server is running. Health check:</p>
+    <pre id="out">Loading...</pre>
+    <script>
+      fetch('/api/admin/health').then(r=>r.json()).then(j=>{
+        document.getElementById('out').textContent = JSON.stringify(j, null, 2);
+      }).catch(e=>{
+        document.getElementById('out').textContent = 'Health failed: ' + e;
+      });
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,10 @@
+#define SECRET_SSID 
+#define SECRET_NETPSWD 
+
+#define KEY_INPUT_TOPIC 
+#define CARD_INPUT_TOPIC 
+
+#define ACCESS_GRANTED_TOPIC 
+#define ACCESS_DENIED_TOPIC 
+
+#define SUB_INTERVAL 
